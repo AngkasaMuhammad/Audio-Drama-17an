@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Skenario · Perjuangan Kemerdekaan</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			background: #fef3e2;
+			display: flex;
+			justify-content: center;
+			padding: 2rem 1rem;
+			font-family: 'Times New Roman', Georgia, serif;
+		}
+		.skenario {
+			max-width: 820px;
+			width: 100%;
+			background: #fffbf5;
+			padding: 2.5rem 2.2rem;
+			border-radius: 28px;
+			box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+			border: 1px solid #e7dccc;
+			color: #2e241e;
+			line-height: 1.6;
+			font-size: 1.1rem;
+		}
+		.skenario h1 {
+			font-size: 2rem;
+			font-weight: 600;
+			letter-spacing: 1px;
+			border-bottom: 2px solid #b34a3c;
+			padding-bottom: 0.5rem;
+			margin-bottom: 1.5rem;
+			color: #7f2e22;
+			text-align: center;
+			font-family: 'Georgia', serif;
+		}
+		.skenario .adegan {
+			margin-top: 1.8rem;
+			padding-top: 0.8rem;
+			border-top: 1px dashed #dacfc1;
+		}
+		.skenario .adegan:first-of-type {
+			border-top: none;
+			margin-top: 0;
+		}
+		.skenario .judul-adegan {
+			font-weight: 700;
+			font-size: 1.3rem;
+			color: #a13d2e;
+			letter-spacing: 0.3px;
+			margin-bottom: 0.5rem;
+			display: inline-block;
+			background: #f5e7dc;
+			padding: 0.1rem 1rem 0.1rem 0.8rem;
+			border-radius: 30px;
+		}
+		.skenario .narasi {
+			font-style: italic;
+			color: #3f322a;
+			margin: 0.5rem 0 0.3rem 0;
+			padding-left: 0.3rem;
+			border-left: 4px solid #c9b09b;
+			padding-left: 1rem;
+		}
+		.skenario .dialog {
+			margin: 0.6rem 0 0.3rem 1.2rem;
+			padding-left: 0.5rem;
+			border-left: 2px solid #d8b8a4;
+		}
+		.skenario .dialog span.nama {
+			font-weight: 600;
+			color: #7f3f2b;
+		}
+		.skenario .dialog span.ucapan {
+			font-weight: 400;
+		}
+		.skenario .aksi {
+			color: #5d4a3c;
+			background: #f7f0e9;
+			padding: 0.2rem 0.6rem;
+			border-radius: 16px;
+			display: inline-block;
+			margin: 0.3rem 0 0.1rem 0;
+			font-size: 0.95rem;
+		}
+		.skenario .aksi-blok {
+			color: #5d4a3c;
+			background: #f7f0e9;
+			padding: 0.2rem 0.8rem;
+			border-radius: 20px;
+			display: inline-block;
+			margin: 0.4rem 0;
+			font-size: 0.95rem;
+		}
+		.skenario .musik {
+			color: #75624f;
+			font-style: italic;
+			background: #efe6db;
+			padding: 0.1rem 1rem;
+			border-radius: 30px;
+			display: inline-block;
+			margin: 0.4rem 0;
+		}
+		.skenario .ucapan-bersama {
+			font-weight: 600;
+			color: #8f3f2a;
+			background: #faeadf;
+			padding: 0.2rem 1.2rem;
+			border-radius: 40px;
+			display: inline-block;
+			margin: 0.4rem 0;
+		}
+		.skenario .lagu-medley {
+			font-weight: 500;
+			color: #5f3d2b;
+			background: #f0e1d4;
+			padding: 0.1rem 1rem;
+			border-radius: 30px;
+			display: inline-block;
+			margin: 0.3rem 0;
+		}
+		.skenario .garis-bawah {
+			margin-top: 0.8rem;
+			border-bottom: 1px solid #e1d3c4;
+		}
+		/* spasi antar elemen */
+		.skenario br {
+			display: block;
+			content: "";
+			margin: 0.15rem 0;
+		}
+		.skenario .break-spacer {
+			display: block;
+			height: 0.4rem;
+		}
+		/* agar teks lebih rapi */
+		.skenario p {
+			margin: 0.4rem 0;
+		}
+		.skenario .kutipan {
+			font-family: 'Georgia', serif;
+			font-size: 1.05rem;
+		}
+		
+		
+	</style>
+	<link rel="stylesheet" href="klikaudio.css"/>
+</head>
+<body>
+<div class="skenario">
+
+	<script src="audio drama 17an.js" type="module"></script>
+	<h1>🇮🇩 PERJUANGAN KEMERDEKAAN</h1>
+	<div style="text-align:center; color:#7f5f4a; margin-bottom:1.2rem; font-size:1rem;">— skenario drama peringatan 17 Agustus —</div>
+	<audio controls src="Lagu nasional tanah airku instrumental.mp3"></audio>
+	<!-- ========== ADEGAN 1 ========== -->
+	<div class="adegan">
+		<span pair="suara_dramatis" class="judul-adegan tekanau">Adegan 1 (2 menit)</span>
+		<br>
+		<audio pair="suara_dramatis" vol=".7" controls src="drum0.mp3"></audio>
+		<br>
+		Anak-anak RT berkumpul. Mereka memakai pakaian merah putih. Andra dan Husna masuk sambil memacul di sawah.
+		<br><br>
+		<span class="narasi">Narator:</span>
+		<span style="display:block; margin-left:1rem; font-style:italic; color:#3f322a;">
+			"Sudah lebih dari tiga abad bangsa Indonesia hidup di bawah penjajahan. Tanah air yang begitu kaya, justru membuat rakyat Indonesia harus merasakan penderitaan, kerja paksa, kelaparan, dan kehilangan kebebasan."
+		</span>
+		<br>
+		<div class="dialog"><span class="nama">Husna:</span> <span class="ucapan">"Aduh, Pak, kapan ya Indonesia bisa bebas?"</span></div>
+		<div class="dialog"><span class="nama">Andra:</span> <span class="ucapan">"Iya, kapan ya? Kita ingin hidup damai dan tidak dijajah lagi."</span></div>
+		<br>
+		<span class="aksi-blok">⏳ Datang Danen membawa senjata lalu <span pair="suara_tendang" class="tekanau">menendang Andra.</span></span>
+		<br>
+		<audio pair="suara_tendang" vol=".3" controls src="tendang.mp3"></audio>
+		<div class="dialog"><span class="nama">Danen:</span> <span class="ucapan">"Hey, kerja yang benar! Jangan ngobrol!"</span></div>
+		<div class="dialog"><span class="nama">Andra:</span> <span class="ucapan">"Ampun, Tuan, jangan siksa kami!"</span></div>
+		<span class="aksi-blok">⚡ Danen: "Berisik!" (sambil <span pair="suara_tembak" class="tekanau">menembak Andra dan Husna</span>)</span>
+		<br>
+		<audio pair="suara_tembak" vol=".2"controls src="tembak.mp3"></audio>
+		<br>
+		<span class="aksi">Andra dan Husna mati terkapar.</span>
+		<br>
+		<span class="aksi">Danen tertawa puas.</span>
+		<br>
+		<span class="musik tekanau" pair="suara_perjuangan">🎵 Musik perjuangan mulai terdengar.</span>
+		<br>
+		<audio pair="suara_perjuangan" vol=".7" controls src="Bangun Pemudi Pemuda.mp3"></audio>
+	</div>
+
+	<!-- ========== ADEGAN 2 ========== -->
+	<div class="adegan">
+		<div class="judul-adegan">Adegan 2 (3 menit)</div>
+		<br>
+		Narator menceritakan situasi menjelang Proklamasi. Anak-anak pejuang berdiri. Soekarno dan Hatta berjalan menuju meja.
+		<br><br>
+		<span class="narasi">Narator:</span>
+		<span style="display:block; margin-left:1rem; font-style:italic; color:#3f322a;">
+			"Hari itu adalah pagi yang sangat bersejarah. Tanggal 17 Agustus 1945. Setelah berabad-abad hidup dalam penjajahan, bangsa Indonesia bersiap menyatakan kemerdekaannya."
+		</span>
+		<span class="aksi-blok">(Anak-anak pejuang berdiri dengan sikap siap. Beberapa membawa bambu runcing atau bendera kecil.)</span>
+		<br>
+		<span style="display:block; margin-left:1rem; font-style:italic; color:#3f322a;">
+			"Rakyat dari berbagai daerah menunggu dengan penuh harapan. Mereka ingin mendengar kabar yang telah lama dinantikan. Semua berdoa agar Indonesia benar-benar menjadi bangsa yang merdeka."
+		</span>
+		<span class="aksi-blok">(Ir. Soekarno dan Drs. Mohammad Hatta berjalan perlahan menuju meja yang telah disiapkan.)</span>
+		<br>
+		<span style="display:block; margin-left:1rem; font-style:italic; color:#3f322a;">
+			"Dihadapan para pejuang dan rakyat Indonesia, Ir. Soekarno didampingi Drs. Mohammad Hatta melangkah menuju tempat pembacaan naskah Proklamasi. Suasana menjadi hening. Semua mata tertuju kepada kedua pemimpin bangsa."
+		</span>
+		<span class="aksi-blok">(Soekarno dan Hatta berdiri di belakang meja. Musik perlahan mengecil.)</span>
+		<br>
+		<span style="display:block; margin-left:1rem; font-style:italic; color:#3f322a;">
+			"Inilah saat yang akan mengubah perjalanan bangsa Indonesia. Saat yang akan dikenang sepanjang masa. Dengan mengucapkan syukur kepada Tuhan Yang Maha Esa, bangsa Indonesia akan menyatakan kemerdekaan kepada dunia."
+		</span>
+		<span class="aksi-blok">(Narator berhenti. Suasana hening sekitar 5 detik. Soekarno mengambil teks Proklamasi dan bersiap membacanya.)</span>
+		<br>
+		<div class="dialog" style="font-size:1.2rem;"><span class="nama" style="color:#9f3f2a;">Soekarno:</span> <span class="ucapan" style="font-weight:500;">"Proklamasi..."</span></div>
+		<span class="aksi">(Dilanjutkan pembacaan teks Proklamasi yang asli.)</span>
+	</div>
+
+	<!-- ========== ADEGAN 4 ========== -->
+	<div class="adegan">
+		<div class="judul-adegan">Adegan 4 (2 menit)</div>
+		<br>
+		Pengibaran Merah Putih, petugas pengibar maju menaikkan bendera. Semua hormat. Mengumandangkan Indonesia Raya.
+	</div>
+
+	<!-- ========== ADEGAN 5 ========== -->
+	<div class="adegan">
+		<div class="judul-adegan">Adegan 5 (3 menit)</div>
+		<br>
+		<span pair="suara_medley" class="lagu-medley tekanau">🎶 Medley lagu perjuangan:</span></br>
+		<audio pair="suara_medley" vol=".7" controls src="medley.mp3"></audio>
+		<br>
+		<span style="display:block; margin-left:1.2rem;">• Hari Merdeka</span>
+		<span style="display:block; margin-left:1.2rem;">• Maju Tak Gentar</span>
+		<span style="display:block; margin-left:1.2rem;">• Bagimu Negeri</span>
+		<br>
+		<span class="aksi">Anak-anak membawa bendera kecil.</span>
+	</div>
+
+	<!-- ========== ADEGAN 6 ========== -->
+	<div class="adegan">
+		<div class="judul-adegan">Adegan 6 (2 menit)</div>
+		<br>
+		Semua pemain maju.
+		<br>
+		<span class="narasi">Narator:</span>
+		<span style="display:block; margin-left:1rem; font-style:italic; color:#3f322a;">
+			"Kemerdekaan bukan hanya diwariskan kepada kita, tetapi juga harus kita isi dengan belajar, bekerja keras, menjaga persatuan, dan mencintai Indonesia."
+		</span>
+		<br>
+		<span class="ucapan-bersama">✨ Semua anak bersama-sama mengucapkan: "Dirgahayu Republik Indonesia ke-81!"</span>
+		<br>
+		<span pair="suara_hm" class="aksi tekanau">Lalu semua menyanyikan lagu Hari Merdeka.</span></br>
+		<audio pair="suara_hm" vol=".7" controls src="harimerdeka0.m4a"></audio>
+		<br><br>
+		<div style="border-top:2px solid #dacfc1; margin-top:1.2rem; text-align:center; color:#7f5f4a; padding-top:0.8rem; font-size:0.95rem;">
+			— tamat —
+		</div>
+	</div>
+
+	<!-- tambahan break agar semua dalam satu div -->
+	<br>
+	<div style="font-size:0.85rem; color:#a58773; text-align:right; border-top:1px solid #e5d7c8; padding-top:0.8rem; margin-top:1.2rem;">
+		skenario peringatan kemerdekaan · 17 Agustus
+	</div>
+</div>
+</body>
+</html>

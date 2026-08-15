@@ -1,0 +1,33 @@
+.adegan span.tekanau{
+	background:brown;
+	color:cyan;
+}
+
+
+
+.adegan:has(audio[pair="suara_tendang"]:hover) span.tekanau[pair="suara_tendang"],
+.adegan:has(audio[pair="suara_tembak"]:hover) span.tekanau[pair="suara_tembak"],
+.adegan:has(audio[pair="suara_perjuangan"]:hover) span.tekanau[pair="suara_perjuangan"],
+.adegan:has(audio[pair="suara_dramatis"]:hover) span.tekanau[pair="suara_dramatis"],
+.adegan:has(audio[pair="suara_medley"]:hover) span.tekanau[pair="suara_medley"],
+.adegan:has(audio[pair="suara_hm"]:hover) span.tekanau[pair="suara_hm"],
+
+.adegan span.tekanau:hover
+{
+	outline :4px solid black;
+	background:unset;
+	color:unset;
+}
+
+
+.adegan:has(span.tekanau[pair="suara_tendang"]:hover) audio[pair="suara_tendang"],
+.adegan:has(span.tekanau[pair="suara_tembak"]:hover) audio[pair="suara_tembak"],
+.adegan:has(span.tekanau[pair="suara_perjuangan"]:hover) audio[pair="suara_perjuangan"],
+.adegan:has(span.tekanau[pair="suara_dramatis"]:hover) audio[pair="suara_dramatis"],
+.adegan:has(span.tekanau[pair="suara_medley"]:hover) audio[pair="suara_medley"],
+.adegan:has(span.tekanau[pair="suara_hm"]:hover) audio[pair="suara_hm"],
+
+.adegan audio:hover
+{
+	outline :4px solid green;
+}

@@ -20,6 +20,7 @@ let lih = a=>{
 
 document.querySelectorAll('audio[pair]').forEach((ele,i,arr,)=>{
 	ele.volume = +ele.attributes.vol.value
+	ele.loop = (ele.attributes.loop?.value === 'true')
 })
 let fclick = e=>{
 	let pair = e.currentTarget.attributes.pair.value

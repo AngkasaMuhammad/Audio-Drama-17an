@@ -31,3 +31,9 @@
 {
 	outline :4px solid green;
 }
+
+
+
+input[pair]{
+	width:100%;
+}

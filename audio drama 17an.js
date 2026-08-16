@@ -19,17 +19,27 @@ let lih = a=>{
 
 
 document.querySelectorAll('audio[pair]').forEach((ele,i,arr,)=>{
-	ele.volume = +ele.attributes.vol.value
+	let vol = ele.attributes.vol
+	vol && (ele.volume = +ele.attributes.vol.value)
 	ele.loop = (ele.attributes.loop?.value === 'true')
 })
-let fclick = e=>{
+let fspan = e=>{
 	let pair = e.currentTarget.attributes.pair.value
 	let eleau = document.querySelector(`audio[pair=${pair}]`)
 	eleau.currentTime = 0
 	eleau.play()
 }
 document.querySelectorAll('span[pair]').forEach((ele,i,arr,)=>{
-	ele.addEventListener('click',fclick,)
+	ele.addEventListener('click',fspan,)
+})
+let finput = e=>{
+	let pair = e.currentTarget.attributes.pair.value
+	let eleau = document.querySelector(`audio[pair=${pair}]`)
+	eleau.volume = +e.currentTarget.value
+}
+document.querySelectorAll('input[pair]').forEach((ele,i,arr,)=>{
+	ele.addEventListener('change',finput,)
+	ele.addEventListener('input',finput,)
 })
 
 

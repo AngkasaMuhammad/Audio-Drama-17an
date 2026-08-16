@@ -6,6 +6,7 @@
 
 
 .adegan:has(audio[pair="suara_tendang"]:hover) span.tekanau[pair="suara_tendang"],
+.adegan:has(audio[pair="suara_reload"]:hover) span.tekanau[pair="suara_reload"],
 .adegan:has(audio[pair="suara_tembak"]:hover) span.tekanau[pair="suara_tembak"],
 .adegan:has(audio[pair="suara_perjuangan"]:hover) span.tekanau[pair="suara_perjuangan"],
 .adegan:has(audio[pair="suara_dramatis"]:hover) span.tekanau[pair="suara_dramatis"],
@@ -21,6 +22,7 @@
 
 
 .adegan:has(span.tekanau[pair="suara_tendang"]:hover) audio[pair="suara_tendang"],
+.adegan:has(span.tekanau[pair="suara_reload"]:hover) audio[pair="suara_reload"],
 .adegan:has(span.tekanau[pair="suara_tembak"]:hover) audio[pair="suara_tembak"],
 .adegan:has(span.tekanau[pair="suara_perjuangan"]:hover) audio[pair="suara_perjuangan"],
 .adegan:has(span.tekanau[pair="suara_dramatis"]:hover) audio[pair="suara_dramatis"],
